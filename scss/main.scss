@@ -1,0 +1,16 @@
+// comentario de sass
+/* comentario de css */
+
+/* Estilo Reset */
+@import "variables";
+@import "reset";
+@import "./components/header";
+@import "globales";
+@import "./pages/main-index";
+@import "./pages/main-multimedia";
+@import "./pages/main-noticias";
+@import "./pages/main-personajes";
+@import "./pages/main-soporte";
+@import "./components/footer";
+@import "./utilities/media-queries";
+

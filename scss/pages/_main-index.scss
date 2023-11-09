@@ -1,0 +1,14 @@
+.main-index{
+    button{
+        padding-top: 10px;
+        width: 100%;
+        height: auto;
+        background-color: $color-secundario;
+        color: $color-font;
+    }
+    button:hover{
+        background-color: $color-terciario;
+        color: black;
+    }
+}
+

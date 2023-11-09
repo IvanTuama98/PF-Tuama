@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+    <!-- Link bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Meta Description & keyword -->
+    <meta name="keywords" content="Overwatch, Reportar, Soporte tecnico" />
+    <meta name="description" content="Enviar un ticket al soporte de Blizzard Ent.">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap" rel="stylesheet">
+    <title>Soporte</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="../assets/overwatch-logo.png" alt="">
+        <input type="checkbox" id="btn_menu">
+        <label for="btn_menu"> <img src="../assets/hamburger-menu.svg" alt=""></label>
+        <nav class="menu">
+            <ul>
+                <li>
+                    <img class="logo-hidden" src="../assets/overwatch-logo.png" alt="">
+                </li>
+                <li>
+                    <a href="../index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="./personajes.html">Personajes</a>
+                </li>
+                <li>
+                    <a href="./multimedia.html">Multimedia</a>
+                </li>
+                <li>
+                    <a href="./noticias.html">Noticias</a>
+                </li>
+                <li>
+                    <a href="./soporte.html">Soporte</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-soporte">
+        <h1 class="global-title">Soporte Técnico</h1>
+        <div class="container">
+            <div class="row mb-3 g-3">
+                <div class="col-8">
+                    <div class="mb-3">
+                        <label for="title-input" class="form-label"><h2>Titulo</h2></label>
+                        <input id="title-input" class="form-control" type="text" placeholder="">
+                    </div>
+                    <div class="mb-3">
+                        <label for="name-input" class="form-label"><h2>Nombre y apellido</h2></label>
+                        <input id="name-input" class="form-control" type="text" placeholder="Escribe tu nombre y apellido">
+                    </div>
+                    <div class="mb-3">
+                        <label for="username-input" class="form-label"><h2>Battletag</h2></label>
+                        <input id="username-input" class="form-control" type="text" placeholder="#Usuario 1234">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email-input" class="form-label"><h2>Email</h2></label>
+                        <input id="email-input" class="form-control" type="email" placeholder="Escribe tu mail">
+                    </div>
+                    <div class="mb-3 w-50">
+                        <label for="select" class="form-label"><h2>Plataforma</h2></label>
+                        <select id="select" class="form-select">
+                            <option value="1">PC</option>
+                            <option value="2">PlayStation</option>
+                            <option value="3">Xbox</option>
+                        </select>
+                    </div>
+                    <div class="mb-3 w-75">
+                        <label for="select-two" class="form-label"><h2>Categoria del problema</h2></label>
+                        <select id="select-two" class="form-select">
+                            <option value="1">Cuenta</option>
+                            <option value="2">Pagos</option>
+                            <option value="3">Problemas tecnicos</option>
+                            <option value="4">Problemas dentro del juego</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="coment-id" class="form-label"><h2>Descripcion del problema:</h2></label>
+                        <textarea id="coment-id" class="form-control"></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <label for="file-input" class="form-label">Captura de pantalla</label>
+                        <input id="file-input" type="file" class="form-control">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                    <button type="submit" class="btn btn-danger">Reiniciar</button>
+                </div>
+            </div>
+    </main>
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+</html>

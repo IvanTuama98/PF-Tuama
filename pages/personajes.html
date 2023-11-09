@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+    <!-- Meta Description & keyword -->
+    <meta name = "keywords" content = "Overwatch, Personajes, Roles" />
+    <meta name="description" content="Conoce más acerca de los personajes jugables en Overwatch.">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Personajes</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="../assets/overwatch-logo.png" alt="Logo de Overwatch">
+        <input type="checkbox" id="btn_menu">
+        <label for="btn_menu"> <img src="../assets/hamburger-menu.svg" alt="Logo de menu hamburguesa"></label>
+        <nav class="menu">
+            <ul>
+                <li>
+                    <img class="logo-hidden" src="../assets/overwatch-logo.png" alt="Logo oculto de Overwatch">
+                </li>
+                <li>
+                    <a href="../index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="./personajes.html">Personajes</a>
+                </li>
+                <li>
+                    <a href="./multimedia.html">Multimedia</a>
+                </li>
+                <li>
+                    <a href="./noticias.html">Noticias</a>
+                </li>
+                <li>
+                    <a href="./soporte.html">Soporte</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-nosotros">
+        <h1 class="global-title">Heroes</h1>
+        <div class="container text-center">
+            <div class="row justify-content-start">
+                <div class="col-4">
+                    <h2>Tanque</h2>
+                </div>
+                <div class="col-4">
+                    <h2>Daño</h2>
+                </div>
+                <div class="col-4">
+                    <h2>Soporte</h2>
+                </div>
+            </div>
+            <!------------------------------ Primera fila de cards ------------------------------>
+            <section class="container-padre d-flex gap-2 justify-content-around pt-5">
+                <!-- Card de Doomfist -->
+                <div class="card">
+                    <img src="../assets/doomfist-icon.png" alt="Retrato de Doomfist">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-uno">
+                        <img class="align-content-start" src="../assets/tank-icon.svg" alt="Icono del rol tanque">
+                        Doomfist
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="modal-uno" tabindex="-1" aria-labelledby="modal-label-uno"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h2 class="modal-title fs-5 w-100 text-center" id="modal-label-uno">Doomfist</h2>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body d-flex justify-content-center">
+                                    <img class="w-50" src="../assets/doomfist-concept.jpeg" alt="Arte conceptual de Doomfist">
+                                </div>
+                                <div class="modal-body-text d-flex justify-content-center">
+                                    <p class="text-black">Akande Ogundimu es un peleador altamente calificado y un líder
+                                        natural que perdió su brazo derecho durante la Crisis ómnica y luego se unió a
+                                        Talon. Ahí ascendió de rango y asesinó a su jefe, quien era el Doomfist
+                                        anterior, para después tomar su arma y título homónimo. En la actualidad está
+                                        decidido a sumergir al mundo en un nuevo conflicto tras sus misteriosos
+                                        propósitos personales.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card de Cassidy -->
+                <div class="card">
+                    <img src="../assets/cassidy-icon.png" alt="Retrato de Cassidy">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-dos">
+                        <img class="align-content-start" src="../assets/damage-icon.svg" alt="Logo del rol daño">
+                        Cassidy
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="modal-dos" tabindex="-1" aria-labelledby="modal-label-dos"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h2 class="modal-title fs-5 w-100 text-center" id="modal-label-dos">Cassidy</h2>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body d-flex justify-content-center">
+                                    <img class="w-50" src="../assets/mccree-concept.jpeg"
+                                        alt="Arte conceptual de Cassidy">
+                                </div>
+                                <div class="modal-body-text d-flex justify-content-center">
+                                    <p class="text-black">Cassidy, uno de los fundadores de la infame banda Deadlock, se vio obligado a unirse a Blackwatch, la división de operaciones encubiertas de Overwatch. Llegó a creer que podía enmendar sus acciones pasadas si resolvía las injusticias del mundo. Pero con la caída de Overwatch, Cassidy decidió mantenerse oculto por un tiempo y resurgió más tarde como un pistolero a sueldo que lucha únicamente por las causas que considera justas.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card de Baptiste -->
+                <div class="card">
+                    <img src="../assets/bap-icon.png" alt="Retrato de Baptiste">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-tres">
+                        <img class="align-content-start" src="../assets/support-icon.svg" alt="Icono del rol soporte">
+                        Baptiste
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="modal-tres" tabindex="-1" aria-labelledby="modal-label-tres"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h2 class="modal-title fs-5 w-100 text-center" id="modal-label-tres">Baptiste</h2>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body d-flex justify-content-center">
+                                    <img class="w-50" src="../assets/baptiste-concept.jpeg" alt="Arte conceptual de Baptiste">
+                                </div>
+                                <div class="modal-body-text d-flex justify-content-center">
+                                    <p class="text-black">Baptiste es un médico de combate de élite que fue atraído por Talon bajo la promesa de obtener riquezas fácilmente. Tiempo después, indignado por lo que había hecho, abandonó las filas de Talon para forjarse un nuevo camino. Ahora se dedica a crear un mundo mejor. Busca sanar siempre que puede y lucha cuando debe hacerlo.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!------------------------------ Segunda fila de cards ------------------------------>
+            <section class="container-padre d-flex gap-2 justify-content-around pt-5">
+                <!-- Card de Dva -->
+                <div class="card">
+                    <img src="../assets/dva-icon.png" alt="Retrato de Dva">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-cuatro">
+                        <img class="align-content-start" src="../assets/tank-icon.svg" alt="Icono del rol tanque">
+                        D.va
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="modal-cuatro" tabindex="-1" aria-labelledby="modal-label-cuatro"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h2 class="modal-title fs-5 w-100 text-center" id="modal-label-cuatro">D.va</h2>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body d-flex justify-content-center">
+                                    <img class="w-50" src="../assets/dva-concept.webp"
+                                        alt="Arte conceptual de Dva">
+                                </div>
+                                <div class="modal-body-text d-flex justify-content-center">
+                                    <p class="text-black">Hana Song, más conocida por el alias de "D.Va", es la mejor de todos. Como exjugadora profesional, D.Va ahora aplica sus habilidades para pilotear una armadura robótica y defender a Corea del Sur. Junto con otros pilotos, forma parte del escuadrón MEKA y lucha por su país contra los ataques invasores de los gwishin, una amenaza mecánica que emerge desde las profundidades del mar.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card de Genji -->
+                <div class="card">
+                    <img src="../assets/genji-icon.png" alt="Retrato de Genji">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-cinco">
+                        <div>
+                            <img class="align-content-start" src="../assets/damage-icon.svg" alt="Logo del rol daño">
+                            Genji
+                        </div>
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="modal-cinco" tabindex="-1" aria-labelledby="modal-label-cinco"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h2 class="modal-title fs-5 w-100 text-center" id="modal-label-cinco">Genji</h2>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body d-flex justify-content-center">
+                                    <img class="w-50" src="../assets/genji-concept.webp"
+                                        alt="Arte conceptual de Genji">
+                                </div>
+                                <div class="modal-body-text d-flex justify-content-center">
+                                    <p class="text-black">Cuando quedó al borde de la muerte a manos de su propio
+                                        hermano, el ninja Genji Shimada fue rescatado por Overwatch. Para salvarlo, la
+                                        organización lo convirtió en un arma viviente al integrarle mejoras
+                                        cibernéticas. En la lucha con su naturaleza y propósito después de la caída de
+                                        Overwatch, Genji buscó la paz mediante el estudio con Zenyatta, el monje ómnico,
+                                        antes de responder al llamado de Winston.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card de Mercy -->
+                <div class="card">
+                    <img src="../assets/mercy-icon.png" alt="Retrato de Mercy">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-seis">
+                        <img class="align-content-start" src="../assets/support-icon.svg" alt="Icono del rol soporte">
+                        Mercy
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="modal-seis" tabindex="-1" aria-labelledby="modal-label-seis"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h2 class="modal-title fs-5 w-100 text-center" id="modal-label-seis">Mercy</h2>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body d-flex justify-content-center">
+                                    <img class="w-50" src="../assets/mercy-concept.jpeg" alt="Arte conceptual de Mercy">
+                                </div>
+                                <div class="modal-body-text d-flex justify-content-center">
+                                    <p class="text-black"> Angela Ziegler, tras ser una niña prodigio que quedó huérfana durante la Crisis ómnica, se convirtió en una pionera en la nanotecnología, la médica de combate más destacada de Overwatch y una defensora activa de la paz mundial. Después de la caída de la organización y con la llegada de un nuevo conflicto bélico, Mercy se pregunta si llegará a conocer la paz algún día.</p> 
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!------------------------------ Tercera fila de cards ------------------------------>
+            <section class="container-padre d-flex gap-2 justify-content-around pt-5">
+                <!-- Card de Reinhardt -->
+                <div class="card">
+                    <img src="../assets/rein-icon.png" alt="Retrato de Reinhardt">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-siete">
+                        <img class="align-content-start" src="../assets/tank-icon.svg" alt="Icono del rol tanque">
+                        Reinhardt
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="modal-siete" tabindex="-1" aria-labelledby="modal-label-siete"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h2 class="modal-title fs-5 w-100 text-center" id="modal-label-siete">Reinhardt</h2>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body d-flex justify-content-center">
+                                    <img class="w-50" src="../assets/reinhardt-concept.jpeg"
+                                        alt="Arte conceptual de Reinhardt">
+                                </div>
+                                <div class="modal-body-text d-flex justify-content-center">
+                                    <p class="text-black">Reinhardt Wilhelm vive según los códigos caballerescos de valor, justicia y coraje. Es uno de los fundadores de Overwatch y ha luchado por el bien en todo el mundo durante décadas. Después de la caída de la organización, viajó por Europa como un caballero de antaño y defendió a los inocentes junto a Brigitte, su escudera, hasta que el llamado de Winston lo trajo de vuelta a la lucha junto a Overwatch.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card de Reaper -->
+                <div class="card">
+                    <img src="../assets/reaper-icon.png" alt="Retrato de Reaper">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-ocho">
+                        <img class="align-content-start" src="../assets/damage-icon.svg" alt="Logo del rol daño">
+                        Reaper
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="modal-ocho" tabindex="-1" aria-labelledby="modal-label-ocho"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h2 class="modal-title fs-5 w-100 text-center" id="modal-label-ocho">Reaper</h2>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body d-flex justify-content-center">
+                                    <img class="w-50" src="../assets/reaper-concept.jpeg"
+                                        alt="Arte conceptual de Reaper">
+                                </div>
+                                <div class="modal-body-text d-flex justify-content-center">
+                                    <p class="text-black">Hubo un tiempo en el que Gabriel Reyes era un estimado miembro de Overwatch; primero fungió como comandante del grupo y después como líder de Blackwatch, la división de operaciones encubiertas de Overwatch. Se creía que había fallecido tras la explosión del cuartel general de Overwatch. Sin embargo, los rumores indican que logró escapar de su destino y que ahora trabaja como un irascible asesino conocido como Reaper, uno de los elementos más letales de Talon.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card de Moira -->
+                <div class="card">
+                    <img src="../assets/moira-icon.png" alt="Retrato de Moira">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-nueve">
+                        <img class="align-content-start" src="../assets/support-icon.svg" alt="Icono del rol soporte">
+                        Moira
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="modal-nueve" tabindex="-1" aria-labelledby="modal-label-nueve"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h2 class="modal-title fs-5 w-100 text-center" id="modal-label-nueve">Moira</h2>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body d-flex justify-content-center">
+                                    <img class="w-50" src="../assets/moira-concept.webp" alt="Arte conceptual de Moira">
+                                </div>
+                                <div class="modal-body-text d-flex justify-content-center">
+                                    <p class="text-black">A la controversial genetista Moira O'Deorain solo le importaba
+                                        el avance evolutivo de la humanidad. Aunque su trabajo le ha hecho ganar
+                                        bastantes enemigos, sus alianzas con el colectivo científico de Oasis y con la
+                                        implacable organización Talon la liberaron de limitaciones morales y monetarias,
+                                        hecho que le permitió continuar con sus descubrimientos con gran eficacia... y
+                                        crueldad.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!------------------------------ Cuarta fila de Cards ------------------------------>
+            <section class="container-padre d-flex gap-2 justify-content-around pt-5 pb-5">
+                <!-- Card de Winston -->
+                <div class="card">
+                    <img src="../assets/winston-icon.png" alt="Retrato de Winston">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-diez">
+                        <img class="align-content-start" src="../assets/tank-icon.svg" alt="Icono del rol tanque">
+                        Winston
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="modal-diez" tabindex="-1" aria-labelledby="modal-label-diez"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h2 class="modal-title fs-5 w-100 text-center" id="modal-label-diez">Winston</h2>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body d-flex justify-content-center">
+                                    <img class="w-50" src="../assets/winston-concept.jpeg"
+                                        alt="Arte conceptual de Winston">
+                                </div>
+                                <div class="modal-body-text d-flex justify-content-center">
+                                    <p class="text-black">Winston, un gorila superinteligente modificado genéticamente, además de ser un brillante y apacible científico, es un poderoso campeón. Cuando escapó de la Colonia lunar Horizonte, Winston encontró un hogar con Overwatch y se convirtió en el héroe que siempre había soñador ser... hasta que Overwatch cayó. Ahora, mientras el mundo enfrenta una creciente amenaza por parte de Null Sector, Winston ha llamado a algunos de sus amigos y antiguos aliados. Este es el origen de un nuevo Overwatch.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card de Tracer -->
+                <div class="card">
+                    <img src="../assets/tracer-icon.png" alt="Retrato de Tracer">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-once">
+                        <img class="align-content-start" src="../assets/damage-icon.svg" alt="Logo del rol daño">
+                        Tracer
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="modal-once" tabindex="-1" aria-labelledby="modal-label-once"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h2 class="modal-title fs-5 w-100 text-center" id="modal-label-once">Tracer</h2>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body d-flex justify-content-center">
+                                    <img class="w-50" src="../assets/tracer-concept.webp"
+                                        alt="Arte conceptual de Tracer">
+                                </div>
+                                <div class="modal-body-text d-flex justify-content-center">
+                                    <p class="text-black">Tracer, la aventurera que salta en el tiempo, es una incontenible fuerza del bien. Esta agente, equipada con un arnés temporal que le permite controlar el flujo del tiempo, fue una de las mejores integrantes de Overwatch y en la actualidad no deja escapar cualquier oportunidad para luchar por hacer del mundo un lugar mejor. Tracer comparte su talento y optimismo para ayudar al nuevo Overwatch en la misión de mantener el mundo a salvo.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card de Zenyatta -->
+                <div class="card">
+                    <img src="../assets/zen-icon.png" alt="Retrato de Zenyatta">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-doce">
+                        <img class="align-content-start" src="../assets/support-icon.svg" alt="Icono del rol soporte">
+                        Zenyatta
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="modal-doce" tabindex="-1" aria-labelledby="modal-label-doce"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h2 class="modal-title fs-5 w-100 text-center" id="modal-label-doce">Zenyatta</h2>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body d-flex justify-content-center">
+                                    <img class="w-50" src="../assets/zenyatta-concept.webp" alt="Arte conceptual de Zenyatta">
+                                </div>
+                                <div class="modal-body-text d-flex justify-content-center">
+                                    <p class="text-black">Zenyatta es un monje ómnico que deambula por el mundo en búsqueda de iluminación espiritual decidido a ayudar a quienes conoce con el fin de que superen sus conflictos personales y encuentren la paz interior. Sin embargo, también está dispuesto a luchar para proteger a los inocentes cuando sea necesario, sin importar si se trata de ómnicos o humanos. Se dice que aquellos que se cruzan en su camino nunca vuelven a ser los mismos.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <p>© 2023 Blizzard Entertainment, Inc.</p>
+            <p>Pre entrega de proyecto de Ivan Tuama</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+</html>
